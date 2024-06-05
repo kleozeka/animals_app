@@ -1,0 +1,42 @@
+ /* About Section */
+.about-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Team Section */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items */
+  }
+  
+  .column {
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9; /* Light background */
+  }
+  
+  .column:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  /* Image inside the card */
+  .column img {
+    max-height: 120px; /* Set max height for the image */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Card Content */
+  .container {
+    padding: 20px;
+  }

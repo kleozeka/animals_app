@@ -1,0 +1,14 @@
+[
+    {
+      "type": "dogs",
+      "label": "Dogs"
+    },
+    {
+      "type": "cats",
+      "label": "Cats"
+    },
+    {
+      "type": "birds",
+      "label": "Birds"
+    }
+  ]
